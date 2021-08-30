@@ -1,0 +1,11 @@
+.card-list {
+    width : 85vw; /* width of element 1vw = 1% width of browser area */
+    margin : 0 auto; /* size of box-model element */
+    display: grid; /*setka, all children of element will be grid elements */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /*columns size ratio */
+    grid-gap: 20px;
+}
+
+.card-list * {
+    background-color: aqua;
+}
